@@ -20,7 +20,9 @@ class Exam():
     def tel(self, msg):
 
         url = "https://api.telegram.org/bot%s/sendMessage?chat_id=%s&text=%s" % (
-            "",'',msg)
+            "939159598:AAGGZscNysWO_bPOud5CiQKrBFjYnZSDaXQ",'-1001306413068',msg)
+        param = {"chat_id": "-1001306413068", "text": msg }
+        print(url)
         try:
             result = requests.get(url, param, timeout=20)
         except Exception as e:

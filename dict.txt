@@ -1,0 +1,22 @@
+1.字典所有的Key组成的数组
+list(d)
+2.字典长度
+len(d)
+3.用key取字典值
+d(key)
+4.修改字典值
+d[key] = value
+5.删除key value
+del d[key] [not in KeyError:]
+6.判断字典是否含key
+key in d 
+7.判断字典是不包含key
+key not in d
+8.字典的迭代器
+iter(d)
+9.浅拷贝字典
+c.copy()
+10.使用其他字典的iterable键创建一个字典，并设值为2
+{}.fromkeys(iter(d) ,2)
+11.获取字典值,并给出默认值
+d.get(key, defaultValue)
