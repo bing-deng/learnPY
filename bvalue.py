@@ -11,6 +11,24 @@ def solution(A):
     return length
 
 
+
+def notBvaluedLength2(A, diff_array):
+
+    # print(diff_array,A)
+    orgian_A = A.copy()
+
+    dict_count = {}
+    for i in diff_array:
+        # i in a ,counts
+        c = A.count(i)
+        dict_count[i] = c
+    list_diff_values =  list(dict_count.values())
+    list_diff_values.sort()
+    
+    temp_list = list_diff_values[::-1]
+    return temp_list[0] + temp_list[1]
+
+
 def notBvaluedLength(A, diff_array):
 
     orgian_A = A.copy()
