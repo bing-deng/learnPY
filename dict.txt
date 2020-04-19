@@ -3,7 +3,7 @@ list(d)
 2.字典长度
 len(d)
 3.用key取字典值
-d(key)
+d[key]
 4.修改字典值
 d[key] = value
 5.删除key value
