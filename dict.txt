@@ -20,3 +20,17 @@ c.copy()
 {}.fromkeys(iter(d) ,2)
 11.获取字典值,并给出默认值
 d.get(key, defaultValue)
+12.返回由字典项 ((键, 值) 对) 组成的一个新视图
+d.items()
+13.返回由字典键组成的一个新视图()
+d.keys()
+14.移除key值对应的值,不存在返回默认值，否则引发keyError
+d.pop(key, defaultValue)
+15.LIFO移除字典元素,空数组引发keyerror
+d.popitem()
+16.设置字典值，若key存在返回其值否则设置默认值
+d.setdefault(key,defaultValue)
+17.两个字典并集+覆盖
+d.update(other_dict)
+18.字典值组成的新视图
+d.values()
