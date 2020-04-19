@@ -34,3 +34,5 @@ d.setdefault(key,defaultValue)
 d.update(other_dict)
 18.字典值组成的新视图
 d.values()
+19.清空所有元素
+d.clear()
