@@ -1,0 +1,28 @@
+1.判断元素是否在数组内 是和否
+item in l
+2.拼接两个数组
+l1 + l2 or l1.entend(l2)
+3.数组索引i到j 的切片
+l[i:j]
+4.数组索引i到j 的切片 含步长
+l[i:j:k]
+5.数组的长度 最大值 最小值
+len(l) min(l) max(s)
+6.元素首次出现在数组的位置,可指定位置查询
+l.index(item,i,j)
+7.元素出现的次数
+l.count(i)
+8.清空数组
+l.clear()
+9.复制数组
+l.copy()
+10.插队
+l.insert(index, item)
+11.删除索引i位置的元素
+l.pop(i)
+12.移除指定元素
+l.remove(i)
+13.逆序数组的两种方式
+l.reverse() or l[::-1]
+14.range定义方式
+range(start , stop, step)
