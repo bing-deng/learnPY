@@ -1,5 +1,5 @@
 1.判断元素是否在数组内 是和否
-item in l
+item in l item not l
 2.拼接两个数组
 l1 + l2 or l1.entend(l2)
 3.数组索引i到j 的切片

@@ -9,7 +9,7 @@ class Exam():
     def post(self, answer):
         lines = open(self.filename,'r')
         self.tel("3s后开始测试")
-        time.sleep(3)
+        time.sleep(4)
         for index,i in enumerate(lines):
             if answer or index % 2 == 0:
                 self.tel(i)
@@ -31,6 +31,6 @@ class Exam():
 
 
 if __name__ == "__main__":
-    e = Exam('question.txt')
+    e = Exam('list.txt')
     e.post(answer=True)
 

@@ -68,11 +68,18 @@ def isBvalued(A):
     return False, b
 
 
-A = [4,2,2,4,2]
-B = [1,2,3,2]
-C = [0,5,4,4,5,12]
-D = [4, 4]
+if __name__ == "__main__":
+        
+    A = [4,2,2,4,2]
+    B = [1,2,3,2]
+    C = [0,5,4,4,5,12]
+    D = [4, 4]
 
-for i in [A, B, C ,D]:
-    r = solution(i)
+    # for i in [A, B, C ,D]:
+    #     r = solution(i)
+    #     print(r)
+    result ,list_diff = isBvalued(A)
+    r = result ,list_diff = isBvalued(A)
     print(r)
+    print(result)
+    print(list_diff)
