@@ -31,6 +31,9 @@ class Exam():
 
 
 if __name__ == "__main__":
-    e = Exam('list.txt')
-    e.post(answer=True)
+
+    exam_list = ['list.txt','dict.txt','str.txt']
+    for i in exam_list:
+        e = Exam(i)
+        e.post(answer=True)
 
