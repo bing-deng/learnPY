@@ -10,6 +10,9 @@ def get_data(name):
     headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
     req = Request(url=url, headers=headers)
     html = urlopen(req).read()
+    print(html)
+    fo = open("html.txt","w")
+    fo.write(str(html))
     bsObj = BeautifulSoup(html,"html.parser")
     info = bsObj.find("meta",  property="og:description")
 
@@ -20,7 +23,7 @@ def get_data(name):
 
 if __name__ == "__main__":
     
-    for i in ['jjlin','jaychou','taylorswift']:
+    for i in ['r.t.321']:
         get_data(i)
         time.sleep(1)
    
