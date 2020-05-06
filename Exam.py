@@ -32,8 +32,11 @@ class Exam():
 
 if __name__ == "__main__":
 
-    exam_list = ['list.txt','dict.txt','str.txt']
-    for i in exam_list:
-        e = Exam(i)
-        e.post(answer=True)
+    try:
+        exam_list = ['list.txt','dict.txt','str.txt']
+        for i in exam_list:
+            e = Exam(i)
+            e.post(answer=True)
+    except Exception as e:
+        
 
