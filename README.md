@@ -6,3 +6,5 @@
 
 * [carbon](https://carbon.now.sh/)
 * [cookbook](https://python3-cookbook.readthedocs.io/zh_CN/latest/)
+
+* https://pythonbasics.org/
